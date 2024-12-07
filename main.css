@@ -1,0 +1,43 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  p {
+    font-family: arial 12px;
+    font-size: 20px;
+  }
+  
+  .headerfont {
+    font-family: Newsreader;
+    
+  }
+
+  .image-container {
+    padding: 15px; /* Adds 30px padding around the image */
+    background-color: #f4f4f4; /* Optional: Adds a background color */
+    text-align: center; /* Centers the image and caption */
+    border: 1px solid #ddd; /* Optional: Adds a border around the container */
+    max-width: 400px; /* Optional: Restricts container width */
+    margin: auto; /* Centers the container horizontally on the page */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the image's aspect ratio */
+  }
+  
+  .image-container .caption {
+    margin-top: 10px; /* Adds spacing between the image and the caption */
+    font-size: 14px; /* Adjusts the caption text size */
+    color: #555; /* Sets the caption text color */
+  }
+  
+  
+  /* Remove the following style for div to remove the border. */
+  
+  div {
+    border-style: solid;
+    border: 1px solid black;
+  }
+
